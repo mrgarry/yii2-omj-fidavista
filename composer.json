@@ -1,0 +1,21 @@
+{
+    "name": "omj/yii2-omj-fidavista",
+    "description": "Toolset for FidaVista bank statement processing",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MrGarry",
+            "email": "b4000@inbox.lv"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "omj\\financetools\\fidavista\\": ""
+        }
+    }
+}
