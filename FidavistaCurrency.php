@@ -1,11 +1,11 @@
 <?php
 
-namespace gentumsoft\financetools\fidavista;
+namespace omj\financetools\fidavista;
 
-use gentumsoft\financetools\statementstandart\iStatement;
-use gentumsoft\financetools\statementstandart\iStatementAccount;
-use gentumsoft\financetools\statementstandart\iStatementCurrency;
-use gentumsoft\financetools\statementstandart\iStatementTransaction;
+use omj\financetools\statementstandart\iStatement;
+use omj\financetools\statementstandart\iStatementAccount;
+use omj\financetools\statementstandart\iStatementCurrency;
+use omj\financetools\statementstandart\iStatementTransaction;
 
 class FidavistaCurrency implements iStatementCurrency {
     
